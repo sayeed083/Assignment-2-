@@ -228,42 +228,94 @@ nav li {
     margin-left: 240px;
     margin-bottom: 100px;
 }
-.container_3{
+
+.container_3 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
     margin-left: 100px;
     margin-right: 50px;
-
-
 }
-.fact_icons{
-    
+
+.fact_icons {
+
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 46px 37px 60px;
     margin-bottom: 180px;
     transition: transform 3s ease;
 }
-.fact_icons:hover{
-transform: scale(0.75);
-background-color: lightblue;
+
+.fact_icons:hover {
+    transform: scale(0.75);
+    background-color: lightblue;
 }
-.fact_icons img{
+
+.fact_icons img {
     width: 45.22px;
     height: 45.22px;
 }
 
-.fact_icon_title{
+.fact_icon_title {
     font-weight: 600;
     font-size: 45px;
     color: #424242;
     margin-top: 10px;
     margin-bottom: 5px;
 }
+
 .fact_icon_description {
     font-weight: 600;
     font-size: 20px;
     color: #727272;
 }
+
+/* container 3 Ends*/
+/* facts Ends */
+
+/* container 4 starts */
+/* sponsor starts */
+.sponsor_title {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.sponsor_description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponsor_img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 130px;
+}
+.sponsor_img img{
+    width: 166.76px;
+    height: 50px;
+}
+/* container 4 Ends */
+/* sponsor Ends */
+
+/* Last Section Starts */
+.last_section {
+    background: #FFF4E7;
+    border-radius: 8px;
+    /* /* width: 1440px;
+    height: 100px; */
+    padding: 38px 410px 39px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 216px;
+}
+.last_section_description{
+    color: #424242;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center; 
+}
+
