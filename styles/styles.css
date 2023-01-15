@@ -330,5 +330,113 @@ nav li {
 
  /* last section ends */
 
+/* ---------------------
+    Media Queries
+--------------------- */
 
- /* Unique Sections Starts */
+/* For Mobile Devices */
+
+
+@media only screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+        gap: 50px;
+        padding-left: 0;
+    }
+    .nav-title{
+        padding-left: 50px;
+        white-space: nowrap;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 130px;
+    }
+
+ .banner_img{
+    padding-left: 30px;
+ }
+ .banner_img img {
+    width: 350px;
+    height: 175px;
+ }
+.header_div_1{
+padding-left: 0px;
+}
+    .header_title {
+        margin-left: 10px;
+        white-space: nowrap;
+        font-size: 40px;
+    }
+    .header_description{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .header .button-primary{
+        margin-left: 175px;
+        padding: 10px 24px 10px
+    }
+
+
+    .container {
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    .image_sides{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container_2{
+        flex-direction: column;
+        gap: 990px;
+        margin-left: 0px;
+    }
+    .features_text{
+        width: 200px;
+    }
+    .features_details{
+        width: 250px;
+    }
+    .container_3{
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 35px;
+    }
+
+    .features_img{
+        width: 450px;
+    }
+    .features_img img{
+        width: 420px;
+    }
+    .btn{
+        transform: translate(-115%, 55%);
+    }
+
+
+
+    .facts_title{
+        margin-left: 80px;
+    }
+    .facts_description{
+        margin-left: 50px;
+    }
+    .sponsor{
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+    .sponsor_img{
+        flex-direction: column;
+        gap: 100px;
+        margin-right: 0px;
+        margin-left: 144px;
+    }
+    .last_section{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}
